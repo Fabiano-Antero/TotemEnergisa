@@ -1,0 +1,559 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(145, 143, 143);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*
+margens
+*/
+
+.mb-6 {
+    margin-bottom: 20mm !important;
+}
+.mb-7 {
+    margin-bottom: 35mm !important;
+}
+
+/*
+ ---------------------Section One------------------
+*/
+
+#sectionOne {
+    background: url(../img/backgroudST12_TOP.png)50%, url(../img/backgroudST11_TOP.png)50% fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5%;
+}
+
+.titulo-home {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.text-home {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bt-servicos, .bt-totem {
+    font-weight: 600;
+    font-size: 16px;
+    color: white !important;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.bt-servicos {
+    background-color: #009FC2;
+}
+
+.bt-totem {
+    background-color: #F37021;
+}
+
+.bt-totem:hover {
+    background-color: #ff8f00;
+}
+
+.bt-servicos:hover {
+    background-color: #4fc3f7;
+    text-decoration: none;
+}
+
+.margin-bt {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/*Fim da sectionOne*/
+
+/*
+ ---------------------Section Two------------------
+*/
+
+#sectionTwo {
+    background: url(../img/backgroudST1.svg)50%;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: content-box;
+    padding: 0% 0% 5% 0%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/Icon-ionic-ios-arrow-forward2.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/Icon-ionic-ios-arrow-forward1.svg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+.imagemCarousel {
+    width: 40mm;
+    margin-top: 40%;
+    margin-left: 45%;
+    display: block!important;
+}
+
+.carousel-indicators li {
+    /* position: relative; */
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.carousel-indicators .active {
+    border-width: 0.5mm;
+    border-style: solid;
+    background-color: #F37021;
+    color: white;
+}
+
+.tituloCarosel {
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: 25%;
+    color: #403D00;
+}
+
+.tituloContent {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20%;
+    color: #403D00;
+}
+
+.textContent {
+    font-weight: 600;
+    font-size: 18px;
+    color: #403D00;
+}
+
+.contaImg {
+    width: 226px;
+    margin-top: 10.5mm;
+    margin-left: 4mm;
+}
+
+/*
+ ---------------------Section Three------------------
+*/
+
+#sectionthree {
+    background: url(../img/backgroudST111.svg)50%;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section3 {
+    height: 100vh;
+}
+
+.titulo-map {
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: 5%;
+}
+
+.subTitulo-map {
+    color: #5E5C59;
+    font-weight: 600;
+    font-size: 22;
+    margin-top: 2%;
+}
+
+.pin {
+    width: 7mm;
+}
+
+iframe {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    overflow: hidden;
+    clip-path: polygon(0% 9%, 100% 9%, 100% 100%, 0% 100%);
+}
+
+/*
+ ---------------------Footer------------------
+*/
+
+footer {
+    background-color: #F37021;
+    font-weight: 600;
+    color: white;
+    height: auto;
+}
+
+.energisa {
+    width: 35mm;
+}
+
+.text-redes-sociais {
+    font-size: 14px;
+}
+
+.face, .insta, .twitter {
+    padding: 2mm;
+    width: 12mm;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    #sectionOne {
+        background: url(../img/backgroudST12_TOP.png)25%;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        box-sizing: content-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 5%;
+    }
+    .logo {
+        display: block;
+        margin: auto;
+    }
+    .titulo-home {
+        font-weight: 700;
+        font-size: calc(12px + (8/1200) * 100 * 1vw);
+        text-align: center;
+        margin: auto;
+    }
+    .text-home {
+        font-weight: 600;
+        font-size: calc(12px + (8/1200) * 100 * 1vw);
+        text-align: center;
+        margin: auto;
+    }
+    .bt-servicos, .bt-totem {
+        font-size: calc(8px + (8/1200) * 100 * 1vw);
+    }
+    /*
+ ---------------------Section Two------------------
+*/
+    #sectionTwo {
+        background: url(../img/backgroudST1.svg)70%;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        box-sizing: content-box;
+        padding: 5%;
+        
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../img/Icon-ionic-ios-arrow-forward2.svg);
+    }
+    .carousel-control-next-icon {
+        background-image: url(../img/Icon-ionic-ios-arrow-forward1.svg);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 20px;
+        height: 25px;
+        background-size: 100% 100%;
+    }
+    .carousel-indicators li {
+        /* position: relative; */
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: rgba(255, 255, 255, .5);
+    }
+    .carousel-indicators .active {
+        border-width: 0.5mm;
+        border-style: solid;
+        background-color: #F37021;
+        color: white;
+    }
+    .tituloCarosel {
+        font-weight: 700;
+        font-size: 4.7mm;
+        margin-top: 25%;
+        color: #403D00;
+        text-align: center;
+    }
+    .tituloContent {
+        font-weight: 600;
+        font-size: 4.5mm;
+        margin-top: 1%;
+        color: #403D00;
+        text-align: center;
+    }
+    .textContent {
+        font-weight: 600;
+        font-size: 4.5mm;
+        color: #403D00;
+        text-align: center;
+    }
+    .contaImg {
+        width: 226px;
+        display: block;
+        margin: auto;
+    }
+/*
+ ---------------------Sectionthree------------------
+*/
+    .titulo-map, .subTitulo-map{
+        padding-left: 7mm;
+        padding-right: 7mm;
+    }
+
+    .titulo-map{
+        font-weight: 700;
+        font-size: 27px;
+        margin-top: 5%;
+    }
+    
+
+    .section3 {
+        height: 109vh;
+    }
+    
+    .subTitulo-map{
+        color: #5E5C59;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 7%;
+    
+    }
+    .pin{
+        width: 7mm;
+    }
+    iframe {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        overflow: hidden;
+        clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0% 100%);
+    }
+/*
+ ---------------------Footer------------------
+*/
+
+    footer {
+        background-color: #F37021;
+        font-weight: 600;
+        color: white;
+        height: auto;
+
+    }
+    
+    .energisa {
+        width: 35mm;
+    }
+    
+    .text-redes-sociais {
+        font-size: 14px;
+    }
+    
+    .face, .insta, .twitter {
+        padding: 2mm;
+        width: 12mm;
+    }
+    
+}
+
+/*
+-------------fontes responsivas--------
+*/
+
+/*
+ ---------------------Mobile------------------
+
+
+@media screen and (max-width: 767px){
+    #sectionOne {
+        background: url(../img/backgroudST12_TOP.png)25%;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        box-sizing: content-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        
+    }
+    .section1 {
+        height: 105vh;
+        padding-left:  5%;
+        padding-right: 5%;
+    }
+
+    #sectionTwo {
+        background: url(../img/backgroudST1.svg) 50%, url(../img/backgroudST2.svg) 50%;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        box-sizing: content-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .section2 {
+        height: 113vh;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo-home {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    .text-home {
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../img/Icon-ionic-ios-arrow-forward2.svg);
+    }
+    .carousel-control-next-icon {
+        background-image: url(../img/Icon-ionic-ios-arrow-forward1.svg);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-size: 100% 100%;
+    }
+    .imagemCarousel {
+        width: 40mm;
+        margin-top: 40%;
+        margin-left: 45%;
+        display: block!important;
+    }
+    .carousel {
+        height: 90%;
+    }
+    .carousel-mobCong {
+        padding: 0% 15% 0% 15%;
+        text-align: center;
+    }
+    .contaImg {
+        width: 226px;
+        margin-left: 4mm;
+        margin-bottom: 4mm;
+    }
+    .tituloCarosel {
+        font-weight: 700;
+        font-size: 4.7mm;
+        margin-top: 5%;
+        color: #403D00;
+    }
+    .tituloContent {
+        font-weight: 600;
+        font-size: 4.5mm;
+        margin-top: 1%;
+        color: #403D00;
+    }
+    .textContent {
+        font-weight: 600;
+        font-size: 4.5mm;
+        color: #403D00;
+    }
+
+    .titulo-map, .subTitulo-map{
+        padding-left: 7mm;
+        padding-right: 7mm;
+    }
+
+    .titulo-map{
+        font-weight: 700;
+        font-size: 27px;
+        margin-top: 5%;
+    }
+    
+
+    .section3 {
+        height: 109vh;
+    }
+    
+    .subTitulo-map{
+        color: #5E5C59;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 7%;
+    
+    }
+    .pin{
+        width: 7mm;
+    }
+}
